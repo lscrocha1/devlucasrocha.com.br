@@ -1,7 +1,11 @@
 import Image from 'next/image';
 import styles from './header.module.css';
+import { useTranslations } from 'next-intl';
 
 export default function Header() {
+    const t = useTranslations('header');
+    const tShared = useTranslations('shared');
+
     return (
         <header className={styles.header}>
             <nav>
@@ -18,16 +22,16 @@ export default function Header() {
                         <a href='/'>Lucas Rocha</a>
                     </li>
                     <li>
-                        <a href='#sobremim'>sobre mim</a>
+                        <a href={`#${tShared('aboutMeId')}`}>{t('aboutMe')}</a>
                     </li>
                     <li>
-                        <a href='#conteudo'>criação de conteúdo</a>
+                        <a href={`#${tShared('contentCreationId')}`}>{t('contentCreation')}</a>
                     </li>
                     <li>
-                        <a href='#experiencias'>experiências</a>
+                        <a href={`#${tShared('experiencesId')}`}>{t('experiences')}</a>
                     </li>
                     <li>
-                        <a href='#contato'>contato</a>
+                        <a href={`#${tShared('contactId')}`}>{t('contact')}</a>
                     </li>
                 </ol>
             </nav >

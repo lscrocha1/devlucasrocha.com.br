@@ -1,8 +1,11 @@
 import Image from 'next/image';
 import styles from './footer.module.css';
-import { IFooterLink } from '@/interfaces/IFooterLink';
+import { IFooterLink } from '@/src/interfaces/IFooterLink';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+    const t = useTranslations('footer');
+
     const currentYear = new Date().getFullYear();
 
     const links: IFooterLink[] = [
@@ -11,7 +14,7 @@ export default function Footer() {
             url: 'mailto:devlucascrocha@gmail.com',
             height: 24,
             width: 24,
-            alt: 'Enviar email para devlucascrocha@gmail.com'
+            alt: 'devlucascrocha@gmail.com'
         },
         {
             src: '/linkedin.svg',
@@ -75,7 +78,7 @@ export default function Footer() {
                 </div>
                 <div>
                     Copyright © {currentYear} - Lucas Rocha.
-                    Desenvolvido com <a target="_blank" href="https://nextjs.org/" rel="noreferrer nofollow">Next.JS</a>.
+                    &nbsp;{t('developedWith')} <a target="_blank" href="https://nextjs.org/" rel="noreferrer nofollow">Next.JS</a>.
                 </div>
             </div>
             <div>

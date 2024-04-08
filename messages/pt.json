@@ -1,0 +1,25 @@
+{
+    "header": {
+        "aboutMe": "sobre mim",
+        "contentCreation": "criação de conteúdo",
+        "experiences": "experiências",
+        "contact": "contato"
+    },
+    "shared": {
+        "aboutMeId": "sobreMim",
+        "contentCreationId": "criacaoConteudo",
+        "experiencesId": "experiencias",
+        "contactId": "contato"
+    },
+    "contact": {
+        "title": "Como posso ajudar?",
+        "subtitle": "Quer me contratar para um freela ou está com alguma dúvida? Sinta-se à vontade para entrar em contato comigo preenchendo o formulário abaixo, e eu retornarei assim que possível.",
+        "name": "Nome",
+        "message": "Mensagem",
+        "authorizeCheckbox": "Eu autorizo que este site armazene minhas informações enviadas para que possam responder à minha pergunta.",
+        "submit": "Enviar"
+    },
+    "footer": {
+        "developedWith": "Desenvolvido com"
+    }
+}

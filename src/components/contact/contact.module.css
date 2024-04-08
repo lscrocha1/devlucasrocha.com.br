@@ -1,0 +1,94 @@
+.contact {
+    background-color: #FFF090;
+    text-align: center;
+    padding: 100px 48px 100px 48px;
+}
+
+.contactContainer {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 300;
+    color: #403C24;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    font-weight: 200;
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input {
+    font-size: 16px;
+    padding: 5px 10px;
+    outline: none;
+    background: #FFF7C7;
+    color: #000000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+    font-family: unset;
+    width: 49%;
+}
+
+.input::placeholder {
+    color: #808080;
+    font-weight: 200;
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.checkboxWrapper {
+    margin-top: 16px;
+    text-align: left !important;
+}
+
+.labelCheckbox {
+    margin-left: 8px;
+    text-align: left !important;
+}
+
+.checkbox {
+    background-color: #FFF7C7;
+}
+
+.buttonWrapper {
+    text-align: right;
+    margin-top: 24px;
+}
+
+.submit {
+    background-color: #4361EE;
+    padding: 12px 40px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    outline: none;
+    border: none;
+    font-family: unset ;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #4d61bb;
+}

@@ -5,17 +5,19 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucas Rocha - Desenvolver Fullstack",
+  title: "Lucas Rocha - Fullstack Developer",
   description: "Meu site",
 };
 
-export default function RootLayout({
+export default function LocaleLayout({
   children,
+  params: { locale }
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
   return (
-    <html lang="pt-br" dir="ltr">
+    <html lang={locale} dir="ltr">
       <body className={inter.className}>{children}</body>
     </html>
   );
