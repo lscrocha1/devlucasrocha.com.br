@@ -1,0 +1,39 @@
+.footer {
+    background-color: #231F20;
+    color: white;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.links {
+    margin-bottom: 24px;
+}
+
+.links a {
+    margin-right: 12px;
+}
+
+.imageLink:hover {
+    transform: scale(1.1);
+}
+
+.footerDetails {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 74px;
+}

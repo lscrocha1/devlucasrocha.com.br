@@ -1,0 +1,33 @@
+.header {
+    background-color: #FBFBFB;
+    padding: 16px;
+}
+
+.header nav ol {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.header nav ol li {
+    margin-right: 12px;
+}
+
+.header nav ol li:nth-child(2) {
+    flex-grow: 1;
+    margin-right: 0;
+    font-weight: 600;
+}
+
+.header nav ol li:last-child {
+    margin-right: 0;
+}
+
+.header nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header nav ol li a:hover {
+    text-decoration: underline;
+}
