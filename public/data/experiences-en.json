@@ -2,7 +2,7 @@
     {
         "companyName": "AgileEngine",
         "url": "https://agileengine.com/",
-        "image": "/agile-engine.png",
+        "image": "/agileengine_logo.jpeg",
         "period": "April, 2022 - Present",
         "description": "Working as a full stack developer, using .NET Core (6+) on the backend in a microservices architecture and Angular (12+) on the frontend. We use PubNub for real-time communication between applications and AWS for databases, lambdas, gateways, etc. Applications are Dockerized and orchestrated with Kubernetes, with CI/CD on GitLab. Our applications have unit tests and integration tests to ensure stability despite changes.\n\nWe use SCRUM and follow a 2-week sprint, completing all rituals. The client I work with is from the United States, so I use English for daily text/voice communication.",
         "title": "Fullstack Developer",
@@ -11,7 +11,7 @@
     {
         "companyName": "CI&T",
         "url": "https://ciandt.com/",
-        "image": "/cit.png",
+        "image": "/ciandt_logo.jpeg",
         "period": "February, 2022 - March, 2022",
         "description": "Brief stint with an international client, where I worked with a team based in Brazil and India to create microservices for an existing application. The microservices were being developed using .NET 6 and Kafka for inventory control.",
         "title": "Senior Systems Analyst",
@@ -20,7 +20,7 @@
     {
         "companyName": "NAVA - Technology for Business",
         "url": "https://www.nava.com.br/",
-        "image": "/nava.png",
+        "image": "/nava_technology_logo.jpeg",
         "period": "January, 2021 - January, 2022",
         "description": "Remotely allocated at Banco Safra, I worked on various projects, including Open Banking, credit operations, and other internal projects. The projects I worked on used .NET Core 3.1 and NodeJS to build APIs, new background processes with Hangfire, Kafka, etc.",
         "title": "Senior Developer Analyst",
@@ -29,7 +29,7 @@
     {
         "companyName": "Pasquali Solution",
         "url": "https://www.pasqualisolution.com.br/",
-        "image": "/pasquali.png",
+        "image": "/pasquali_solution_tech_logo.jpeg",
         "period": "July, 2020 - January, 2021",
         "description": "Development of an internal tool for people, business, and values using .NET Core (Windows Forms), Entity Framework Core, Dapper, and MySQL.",
         "title": "Mid-Level C# Developer",
@@ -38,7 +38,7 @@
     {
         "companyName": "Tempus Digital",
         "url": "https://tempus.digital/",
-        "image": "/tempus.png",
+        "image": "/tempus_digital_logo.jpeg",
         "period": "May, 2018 - July, 2020",
         "description": "As a developer working with various clients and projects, I used various technologies and tools, such as .NET Core for projects with Razor, MVC, APIs, using Entity Framework Core, CQRS, SQL Server, among other things. On the frontend, I worked with Angular, Vue.JS, Stencil.JS, and other technologies.",
         "title": "Fullstack Developer",
@@ -47,7 +47,7 @@
     {
         "companyName": "Indra",
         "url": "https://www.indracompany.com/",
-        "image": "/indra.png",
+        "image": "/indra_logo.jpeg",
         "period": "April, 2017 - April, 2018",
         "description": "Development in .NET Framework, using ASP.NET WebForms, JQuery, and SQL Server. Creation of new screens and processes for insurance and capitalization systems.",
         "title": "Systems Trainee",
@@ -56,7 +56,7 @@
     {
         "companyName": "Tempus Digital",
         "url": "https://tempus.digital/",
-        "image": "/tempus.png",
+        "image": "/tempus_digital_logo.jpeg",
         "period": "August, 2016 - February, 2017",
         "description": "As an intern, I was learning to develop new screens with Angular 2 and Ionic 2. On the backend, using mediator and CQRS, I created and updated new APIs using .NET Core, CQRS, and Entity Framework Core, along with Azure SQL Server as the database. The application I worked on used Azure for deployment, with a strategy where the Angular application was statically deployed on the same backend service.",
         "title": "Programming Intern",
