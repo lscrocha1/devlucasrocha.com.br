@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import styles from './contact.module.css';
+import sharedStyles from '../shared/shared.module.css';
 
 export default function Contact() {
     const t = useTranslations('contact');
@@ -8,8 +9,8 @@ export default function Contact() {
     return (
         <article className={styles.contact} id={tShared('contactId')}>
             <div className={styles.contactContainer}>
-                <h1 className={styles.title}>{t('title')}</h1>
-                <h3 className={styles.subtitle}>{t('subtitle')}</h3>
+                <h1 className={sharedStyles.title}>{t('title')}</h1>
+                <h3 className={sharedStyles.subtitle}>{t('subtitle')}</h3>
                 <form>
                     <div className={styles.inputWrapper}>
                         <input className={styles.input} id="name" type="text" placeholder={t('name')}></input>

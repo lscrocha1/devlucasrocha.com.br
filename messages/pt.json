@@ -19,6 +19,11 @@
         "authorizeCheckbox": "Eu autorizo que este site armazene minhas informações enviadas para que possam responder à minha pergunta.",
         "submit": "Enviar"
     },
+    "experiences": {
+        "title": "Experiências",
+        "subtitle": "Abaixo, você encontra todas as minhas experiências profissionais detalhadas, destacando as tecnologias que utilizei ao longo do meu percurso profissional. Se preferir, pode baixar meu currículo",
+        "downloadHere": "aqui"
+    },
     "footer": {
         "developedWith": "Desenvolvido com"
     }

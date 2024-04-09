@@ -1,0 +1,65 @@
+[
+    {
+        "companyName": "AgileEngine",
+        "url": "https://agileengine.com/",
+        "image": "/agile-engine.png",
+        "period": "Abril, 2022 - Presente",
+        "description": "Atuando como desenvolvedor full stack, utilizando .NET Core (6+) no backend em uma arquitetura de microserviços e Angular (12+) no frontend. Utilizamos o PubNub para comunicação em tempo real entre as aplicações e a AWS para banco de dados, lambdas, gateways, etc. As aplicações utilizam Docker e Kubernetes, com CI/CD no GitLab. Nossas aplicações contam com testes unitários e testes de integração para garantir que a aplicação seja estável mesmo com todas as mudanças. \n\nUtilizamos SCRUM e seguimos sprint de 2 semanas, onde cumprimos todos os ritos. O cliente com o qual trabalho é dos Estados Unidos, então utilizo inglês para comunicação por texto/voz diariamente.",
+        "title": "Desenvolvedor Fullstack",
+        "skills": [".NET Core (.NET 6)", "Angular", "Microserviços", "Docker", "Kubernetes", "XUnit", "NSubstitute", "NodeJS", "Terraform", "AWS Lambda", "AWS Opensearch", "AWS Beanstalk", "AWS S3", "PubNub"]
+    },
+    {
+        "companyName": "CI&T",
+        "url": "https://ciandt.com/",
+        "image": "/cit.png",
+        "period": "Fevereiro, 2022 - Março, 2022",
+        "description": "Breve atuação em cliente internacional, onde trabalhei com uma equipe baseada no Brasil e na Índia para criar microserviços de uma aplicação existente. Os microserviços estavam sendo desenvolvidos com .NET 6 e Kafka para controle de estoque.",
+        "title": "Analista de Sistemas Sênior",
+        "skills": [".NET Core (.NET 6)", "Kafka", "Microserviços"]
+    },
+    {
+        "companyName": "NAVA - Technology for Business",
+        "url": "https://www.nava.com.br/",
+        "image": "/nava.png",
+        "period": "Janeiro, 2021 - Janeiro, 2022",
+        "description": "Alocado remotamente no Banco Safra, atuei em diversos projetos, incluindo Open Banking, operações de crédito e outros projetos internos. Os projetos em que trabalhei utilizavam .NET Core 3.1 e NodeJS para construção de APIs, novos processos em background com Hangfire, Kafka, etc.",
+        "title": "Analista Desenvolvedor Sênior",
+        "skills": [".NET Core (.NET 3.1)", "Kafka", "Microserviços", "Hangfire", "NodeJS", "RabbitMQ"]
+    },
+    {
+        "companyName": "Pasquali Solution",
+        "url": "https://www.pasqualisolution.com.br/",
+        "image": "/pasquali.png",
+        "period": "Julho, 2020 - Janeiro, 2021",
+        "description": "Desenvolvimento de ferramenta interna de pessoas, negócios e valores utilizando .NET Core (Windows Forms), Entity Framework Core, Dapper e MySQL.",
+        "title": "Desenvolvedor C# Pleno",
+        "skills": [".NET Core (.NET 3.1)", "Windows Forms", "MySQL"]
+    },
+    {
+        "companyName": "Tempus Digital",
+        "url": "https://tempus.digital/",
+        "image": "/tempus.png",
+        "period": "Maio, 2018 - Julho, 2020",
+        "description": "Atuando como desenvolvedor em diversos clientes e projetos, utilizei diversas tecnologias e ferramentas, como .NET Core para projetos com Razor, MVC, APIs, utilizando Entity Framework Core, CQRS, SQL Server, entre outras coisas. No frontend, trabalhei com Angular, Vue.JS, Stencil.JS e outras tecnologias.",
+        "title": "Desenvolvedor Fullstack",
+        "skills": [".NET Core", "ASP.NET Core", "Razor", "SQL Server", "Angular", "Vue.JS", "Ionic", "Stencil.JS", "Flutter", "AWS", "Azure"]
+    },
+    {
+        "companyName": "Indra",
+        "url": "https://www.indracompany.com/",
+        "image": "/indra.png",
+        "period": "Abril, 2017 - Abril, 2018",
+        "description": "Desenvolvimento em .NET Framework, utilizando ASP.NET WebForms, JQuery e SQL Server. Criação de novas telas e processos para sistemas de seguro e capitalização.",
+        "title": "Trainee de Sistemas",
+        "skills": [".NET Framework", "ASP.NET WebForms", "IIS", "SQL Server", "JQuery"]
+    },
+    {
+        "companyName": "Tempus Digital",
+        "url": "https://tempus.digital/",
+        "image": "/tempus.png",
+        "period": "Agosto, 2016 - Fevereiro, 2017",
+        "description": "Como estagiário, estava aprendendo a desenvolver novas telas com Angular 2 e Ionic 2. No backend, usando mediator e CQRS, criei e atualizei novas APIs utilizando .NET Core, CQRS e Entity Framework Core, além do Azure SQL Server como banco de dados. A aplicação em que trabalhei utilizava o Azure para o deploy, com uma estratégia em que a aplicação Angular era implantada estaticamente no mesmo serviço do backend.",
+        "title": "Estágiario de programação",
+        "skills": [".NET Core", "ASP.NET Core", "Razor", "SQL Server", "Angular", "Vue.JS", "Ionic", "Stencil.JS", "Flutter", "AWS", "Azure"]
+    }
+]

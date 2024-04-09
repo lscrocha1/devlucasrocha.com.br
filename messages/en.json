@@ -19,6 +19,11 @@
         "authorizeCheckbox": "I authorize this website to store my submitted information so that they can respond to my query.",
         "submit": "Send"
     },
+    "experiences": {
+        "title": "Experiences",
+        "subtitle": "Below, you'll find all my detailed professional experiences, highlighting the technologies I've used throughout my career. If you prefer, you can download my resume",
+        "downloadHere": "here"
+    },
     "footer": {
         "developedWith": "Developed with"
     }
