@@ -15,7 +15,12 @@ export default function Experience(
 
     const [jobExperiences, setJobExperiences] = useState<IJobExperience[]>([]);
 
-    useEffect(() => { getJobExperiences() }, []);
+    const [downloadLink, setDownloadLink] = useState<string>();
+
+    useEffect(() => {
+        getJobExperiences();
+        getCVDownloadLink()
+    }, []);
 
     async function getJobExperiences() {
         let result: IJobExperience[] = [];
@@ -26,6 +31,13 @@ export default function Experience(
             result = enExperiences;
 
         setJobExperiences(result);
+    }
+
+    function getCVDownloadLink() {
+        if (location.pathname.includes('pt'))
+            setDownloadLink('/cv/CV_Lucas_Rocha_pt.pdf');
+        else
+            setDownloadLink('/cv/CV_Lucas_Rocha_en.pdf');
     }
 
     function renderExperiences() {
@@ -40,12 +52,15 @@ export default function Experience(
                             height={63}
                             alt={`${experience.companyName} logo`} />
                     </div>
-                    <div>
-                        <a href={experience.url} target="_blank" rel="noreferrer nofollow">{experience.companyName}</a><br />
-                        <span>{experience.title}</span><br />
-                        <span>{experience.period}</span><br />
-                        <span>{experience.description}</span><br />
-                        <span>{experience.skills}</span>
+                    <div className={styles.experienceDetailWrapper}>
+                        <a className={styles.companyName} href={experience.url} target="_blank" rel="noreferrer nofollow">{experience.companyName}</a>
+                        <div className={styles.experienceTitle}>{experience.title}</div>
+                        <div className={styles.experiencePeriod}>{experience.period}</div>
+                        <div className={styles.experienceDescription}>{experience.description}</div>
+                        <div className={styles.skillsWrapper}>
+                            <b className={styles.skills}>Skills:</b>
+                            {experience.skills.map((skill, indexSkill) => <span key={indexSkill} className={styles.experienceSkill}>{skill}</span>)}
+                        </div>
                     </div>
                 </div>
             ))
@@ -53,11 +68,11 @@ export default function Experience(
     }
 
     return (
-        <article id={experiencesId}>
-            <h1 className={sharedStyles.title}>{title}</h1>
-            <h3 className={sharedStyles.subtitle}>
+        <article className={`${sharedStyles.container} ${styles.experienceContainer}`} id={experiencesId}>
+            <h1 className={`${sharedStyles.title} ${styles.title}`}>{title}</h1>
+            <h3 className={`${sharedStyles.subtitle} ${styles.subtitle}`}>
                 {subtitle}&nbsp;
-                <a href='#download'>{downloadHere}</a>.
+                <a href={downloadLink} download="Lucas Rocha - CV">{downloadHere}</a>.
             </h3>
             {
                 jobExperiences && jobExperiences.length > 0
