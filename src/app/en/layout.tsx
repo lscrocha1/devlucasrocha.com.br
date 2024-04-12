@@ -17,7 +17,7 @@ export default function LocaleLayout({
   params: { locale: string };
 }>) {
   return (
-    <html lang={locale} dir="ltr">
+    <html lang='en-us' dir="ltr">
       <body className={inter.className}>{children}</body>
     </html>
   );

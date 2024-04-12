@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucas Rocha - Desenvolver Fullstack",
+  title: "Lucas Rocha - Desenvolvedor Fullstack",
   description: "Meu site",
 };
 
@@ -17,7 +17,7 @@ export default function LocaleLayout({
   params: { locale: string };
 }>) {
   return (
-    <html lang={locale} dir="ltr">
+    <html lang='pt-br' dir="ltr">
       <body className={inter.className}>{children}</body>
     </html>
   );

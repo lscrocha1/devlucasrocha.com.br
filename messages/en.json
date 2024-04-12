@@ -24,6 +24,15 @@
         "subtitle": "Below, you'll find all my detailed professional experiences, highlighting the technologies I've used throughout my career. If you prefer, you can download my resume",
         "downloadHere": "here"
     },
+    "contentCreation": {
+        "title": "Content Creation",
+        "livesOnSubtitle": "I livestream on",
+        "andSubtitle": "and",
+        "livesTimeSubtitle": "every Wednesday starting at 7 PM and Saturdays starting at 2 PM, creating programming content covering various technologies, from beginner to advanced levels. \n\nDuring the livestreams, I interact with viewers, aiming to answer all messages sent, both during the livestream and in the videos on",
+        "onSubtitle": "On",
+        "youtubeVideosSubtitle": ", you can find highlights from my livestreams organized into playlists for easier continuity and searching for specific content.",
+        "latestVideos": "Latest Videos"
+    },
     "footer": {
         "developedWith": "Developed with"
     }

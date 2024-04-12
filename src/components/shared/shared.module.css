@@ -1,12 +1,12 @@
 .title {
     font-size: 60px;
-    font-weight: 300;
-    color: #403C24;
+    font-weight: 350;
+    color: #21201a;
     margin-bottom: 40px;
 }
 
 .subtitle {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px;
     margin: 0 auto;
 }
@@ -21,6 +21,10 @@
     text-align: center;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+.textCenter {
+    text-align: center;
 }
 
 .loader {
@@ -42,4 +46,18 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+.clickableLink {
+    color: rgb(0, 0, 238)
+}
+
+.clickableLink:hover {
+    color: #30418d;
+}
+
+.subtitleHeader {
+    font-weight: 400;
+    font-size: 32px;
+    color: #21201a;
 }

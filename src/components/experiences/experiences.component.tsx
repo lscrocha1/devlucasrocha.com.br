@@ -53,7 +53,7 @@ export default function Experience(
                             alt={`${experience.companyName} logo`} />
                     </div>
                     <div className={styles.experienceDetailWrapper}>
-                        <a className={styles.companyName} href={experience.url} target="_blank" rel="noreferrer nofollow">{experience.companyName}</a>
+                        <a className={`${styles.companyName} ${sharedStyles.clickableLink}`} href={experience.url} target="_blank" rel="noreferrer nofollow">{experience.companyName}</a>
                         <div className={styles.experienceTitle}>{experience.title}</div>
                         <div className={styles.experiencePeriod}>{experience.period}</div>
                         <div className={styles.experienceDescription}>{experience.description}</div>
@@ -72,7 +72,7 @@ export default function Experience(
             <h1 className={`${sharedStyles.title} ${styles.title}`}>{title}</h1>
             <h3 className={`${sharedStyles.subtitle} ${styles.subtitle}`}>
                 {subtitle}&nbsp;
-                <a href={downloadLink} download="Lucas Rocha - CV">{downloadHere}</a>.
+                <a className={sharedStyles.clickableLink} href={downloadLink} download="Lucas Rocha - CV">{downloadHere}</a>.
             </h3>
             {
                 jobExperiences && jobExperiences.length > 0

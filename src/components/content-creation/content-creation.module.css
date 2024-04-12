@@ -1,0 +1,14 @@
+.lineBreaker {
+    white-space: pre-line;
+}
+
+.twitchWrapper {
+    height: 500px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.latestVideosWrapper {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}

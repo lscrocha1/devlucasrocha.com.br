@@ -24,6 +24,15 @@
         "subtitle": "Abaixo, você encontra todas as minhas experiências profissionais detalhadas, destacando as tecnologias que utilizei ao longo do meu percurso profissional. Se preferir, pode baixar meu currículo",
         "downloadHere": "aqui"
     },
+    "contentCreation": {
+        "title": "Criação de conteúdo",
+        "livesOnSubtitle": "Faço transmissões ao vivo na",
+        "andSubtitle": "e",
+        "livesTimeSubtitle": "todas as quartas a partir das 19h e aos sábados a partir das 14h, criando conteúdo de programação que abrange diversas tecnologias, desde o básico até o avançado. \n\nDurante as lives, interajo com os espectadores, buscando responder a todas as mensagens enviadas, tanto durante a transmissão quanto nos vídeos do",
+        "onSubtitle": "No",
+        "youtubeVideosSubtitle": ", você pode encontrar cortes das minhas transmissões ao vivo, organizados em playlists para facilitar a continuidade e a busca por conteúdos específicos.",
+        "latestVideos": "Últimos vídeos"
+    },
     "footer": {
         "developedWith": "Desenvolvido com"
     }
