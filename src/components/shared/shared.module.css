@@ -9,6 +9,8 @@
     font-weight: 300;
     font-size: 20px;
     margin: 0 auto;
+    text-align: justify;
+    word-spacing: -2px;
 }
 
 .container {
@@ -60,4 +62,15 @@
     font-weight: 400;
     font-size: 32px;
     color: #21201a;
+}
+
+.chip {
+    background-color: #e8e8e8;
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-size: 12px;
+    word-break: break-all;
+    margin-bottom: 8px;
+    display: inline-block;
 }

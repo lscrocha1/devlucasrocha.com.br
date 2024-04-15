@@ -1,0 +1,36 @@
+.introductionWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introductionTextWrapper {
+    max-width: 650px;
+    white-space: break-spaces;
+    font-size: 29px;
+    text-align: justify;
+    word-spacing: -2px;
+    font-weight: 300;
+}
+
+.hobbiesWrapper {
+    margin-top: 50px;
+    white-space: break-spaces;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.skillsWrapper {
+    margin-top: 12px;
+}
+
+.softSkillsWrapper {
+    margin-top: 24px;
+}
+
+.aboutMeContainer {
+    margin-bottom: 80px;
+}

@@ -1,3 +1,4 @@
+import AboutMe from "@/src/components/about-me/about-me.component";
 import Contact from "@/src/components/contact/contact.component";
 import ContentCreation from "@/src/components/content-creation/content-creation.component";
 import WhatsappCTA from "@/src/components/ctas/whatsapp/whatsapp.component";
@@ -9,6 +10,7 @@ import { useTranslations } from "next-intl";
 export default function Home() {
   const tExperiences = useTranslations('experiences');
   const tShared = useTranslations('shared');
+  const tFooter = useTranslations('footer');
 
   function getLink(): string {
     const base = 'https://wa.me/5519993814321'
@@ -20,6 +22,7 @@ export default function Home() {
     <>
       <Header />
       <main>
+        <AboutMe />
         <ContentCreation />
         <Experience 
           title={tExperiences('title')}
@@ -29,7 +32,7 @@ export default function Home() {
         <Contact />
         <WhatsappCTA whatsappLink={getLink()} />
       </main>
-      <Footer />
+      <Footer developedWith={tFooter('developedWith')} />
     </>
   );
 }

@@ -59,7 +59,7 @@ export default function Experience(
                         <div className={styles.experienceDescription}>{experience.description}</div>
                         <div className={styles.skillsWrapper}>
                             <b className={styles.skills}>Skills:</b>
-                            {experience.skills.map((skill, indexSkill) => <span key={indexSkill} className={styles.experienceSkill}>{skill}</span>)}
+                            {experience.skills.map((skill, indexSkill) => <span key={indexSkill} className={sharedStyles.chip}>{skill}</span>)}
                         </div>
                     </div>
                 </div>
