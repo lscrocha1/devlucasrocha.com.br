@@ -1,40 +1,73 @@
+'use client'
+
 import Image from 'next/image';
 import styles from './header.module.css';
-import { useTranslations } from 'next-intl';
+import { useState } from 'react';
 
-export default function Header() {
-    const t = useTranslations('header');
-    const tShared = useTranslations('shared');
+export default function Header({
+    aboutMeId,
+    aboutMeText,
+    contentCreationId,
+    contentCreationText,
+    experiencesId,
+    experiencesText,
+    contactId,
+    contactText }: {
+        aboutMeId: string,
+        aboutMeText: string,
+        contentCreationId: string,
+        contentCreationText: string,
+        experiencesId: string,
+        experiencesText: string,
+        contactId: string,
+        contactText: string
+    }) {
+    const [isOpen, setIsOpen] = useState(false);
 
-    return (
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return [
         <header className={styles.header}>
-            <nav>
-                <ol>
+            <nav className={styles.nav}>
+                <div className={styles.hamburger} onClick={toggleMenu}>
+                    <div className={styles.bar}></div>
+                    <div className={styles.bar}></div>
+                    <div className={styles.bar}></div>
+                </div>
+                <ol className={styles.olImage}>
                     <li>
-                        <Image
-                            src='/image-profile.png'
-                            alt='Profile'
-                            width={40}
-                            height={40}
-                            priority />
+                        <a href='/' className={styles.imageLogo}>
+                            <Image
+                                className={styles.imageLogo}
+                                src='/image-profile.png'
+                                alt='Profile'
+                                width={40}
+                                height={40}
+                                priority />
+                        </a>
                     </li>
                     <li>
-                        <a href='/'>Lucas Rocha</a>
+                        <a className={styles.nameLogo} href='/'>Lucas Rocha</a>
+                    </li>
+                </ol>
+                <ol className={`${styles.ol} ${!isOpen ? styles.olMenuOff : ''}`}>
+                    <li>
+                        <a onClick={toggleMenu} href={`#${aboutMeId}`}>{aboutMeText}</a>
                     </li>
                     <li>
-                        <a href={`#${tShared('aboutMeId')}`}>{t('aboutMe')}</a>
+                        <a onClick={toggleMenu} href={`#${contentCreationId}`}>{contentCreationText}</a>
                     </li>
                     <li>
-                        <a href={`#${tShared('contentCreationId')}`}>{t('contentCreation')}</a>
+                        <a onClick={toggleMenu} href={`#${experiencesId}`}>{experiencesText}</a>
                     </li>
                     <li>
-                        <a href={`#${tShared('experiencesId')}`}>{t('experiences')}</a>
-                    </li>
-                    <li>
-                        <a href={`#${tShared('contactId')}`}>{t('contact')}</a>
+                        <a onClick={toggleMenu} href={`#${contactId}`}>{contactText}</a>
                     </li>
                 </ol>
             </nav >
-        </header >
-    )
+        </header >,
+        isOpen && <div onClick={toggleMenu} className={styles.backdrop}></div>
+    ]
 }

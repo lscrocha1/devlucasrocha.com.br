@@ -11,6 +11,7 @@ export default function Home() {
   const tExperiences = useTranslations('experiences');
   const tShared = useTranslations('shared');
   const tFooter = useTranslations('footer');
+  const tHeader = useTranslations('header');
 
   function getLink(): string {
     const base = 'https://wa.me/5519993814321'
@@ -20,7 +21,15 @@ export default function Home() {
 
   return (
     <>
-      <Header />
+      <Header
+        experiencesId={tShared('experiencesId')}
+        aboutMeId={tShared('aboutMeId')}
+        contactId={tShared('contactId')}
+        contentCreationId={tShared('contentCreationId')}
+        aboutMeText={tHeader('aboutMe')}
+        contactText={tHeader('contact')}
+        experiencesText={tHeader('experiences')}
+        contentCreationText={tHeader('contentCreation')} />
       <main>
         <AboutMe />
         <ContentCreation />

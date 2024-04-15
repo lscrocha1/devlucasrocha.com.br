@@ -19,6 +19,7 @@ export default function YoutubeVideos() {
                             priority={false}
                             src='/youtube-videos/youtube_video_example.png'
                             alt='Youtube Example'
+                            className={styles.imageVideo}
                             width={600}
                             height={400} />
                     </div>
@@ -27,6 +28,7 @@ export default function YoutubeVideos() {
                             priority={false}
                             src='/youtube-videos/youtube_video_example.png'
                             alt='Youtube Example'
+                            className={styles.imageVideo}
                             width={600}
                             height={400} />
                     </div>
@@ -35,6 +37,7 @@ export default function YoutubeVideos() {
                             priority={false}
                             src='/youtube-videos/youtube_video_example.png'
                             alt='Youtube Example'
+                            className={styles.imageVideo}
                             width={600}
                             height={400} />
                     </div>

@@ -78,3 +78,31 @@
 .submit:hover {
     background-color: #4d61bb;
 }
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 80px 16px 80px 16px;
+    }
+
+    .inputWrapper {
+        flex-direction: column;
+        margin-top: 24px;
+    }
+
+    .input {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .textarea {
+        margin-top: 0;
+    }
+
+    .buttonWrapper {
+        text-align: unset;
+    }
+
+    .submit {
+        width: 100%;
+    }
+}

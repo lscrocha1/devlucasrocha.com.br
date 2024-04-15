@@ -85,7 +85,7 @@ export default function Footer({ developedWith }: { developedWith: string }) {
                             </a>
                         ))}
                 </div>
-                <div>
+                <div className={styles.copyrightWrapper}>
                     Copyright © {currentYear} - Lucas Rocha.
                     &nbsp;{developedWith} <a target="_blank" href="https://nextjs.org/" rel="noreferrer nofollow">Next.JS</a>.
                 </div>
