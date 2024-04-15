@@ -37,3 +37,13 @@
     justify-content: center;
     margin-left: 74px;
 }
+
+@media (max-width: 898px) {
+    .logoWrapper {
+        display: none;
+    }
+
+    .footerDetails {
+        margin-left: 0;
+    }
+}

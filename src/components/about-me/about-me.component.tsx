@@ -32,6 +32,7 @@ export default function AboutMe() {
             <div className={styles.introductionWrapper}>
                 <div>
                     <Image
+                        className={styles.memoji}
                         src='/memoji.png'
                         alt='Me as memoji'
                         width={400}

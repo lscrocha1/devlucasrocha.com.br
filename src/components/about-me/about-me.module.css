@@ -34,3 +34,29 @@
 .aboutMeContainer {
     margin-bottom: 80px;
 }
+
+@media (max-width: 850px) {
+    .introductionTextWrapper {
+        font-size: 22px !important;
+        max-width: 400px !important;
+    }
+}
+
+@media (max-width: 953px) {
+    .introductionTextWrapper {
+        font-size: 24px;
+        max-width: 480px;
+    }
+
+    .memoji {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .introductionTextWrapper {
+        max-width: 480px;
+        font-size: 25px;
+    }
+}

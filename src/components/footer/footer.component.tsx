@@ -90,7 +90,7 @@ export default function Footer({ developedWith }: { developedWith: string }) {
                     &nbsp;{developedWith} <a target="_blank" href="https://nextjs.org/" rel="noreferrer nofollow">Next.JS</a>.
                 </div>
             </div>
-            <div>
+            <div className={styles.logoWrapper}>
                 <Image
                     src='/footer-svgs/lr-logo.svg'
                     width={78}
