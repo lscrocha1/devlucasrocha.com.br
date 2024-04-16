@@ -10,9 +10,13 @@ export default function AboutMe() {
     function getIntroduction() {
         const introductionText = t('introduction');
 
-        const age = new Date().getUTCFullYear() - 2016;
+        const workAge = new Date().getUTCFullYear() - 2016;
 
-        return introductionText.replace('ageReplace', age.toString());
+        const myAge = new Date().getUTCFullYear() - 1998;
+
+        return introductionText
+            .replace('ageReplace', workAge.toString())
+            .replace('myAgeReplace', myAge.toString());
     }
 
     function getHardSkills() {

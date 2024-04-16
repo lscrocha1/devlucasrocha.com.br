@@ -34,7 +34,7 @@
         "latestVideos": "Latest Videos"
     },
     "aboutMe": {
-        "introduction": "Hello! My name is Lucas, I'm 25 years old, and I've been working in programming for over ageReplace years.\n\nI'm completely passionate about what I do. Since 2016, when I started in this field, I've never regretted beginning this journey of continuous learning.\n\nI'm a full-stack developer, but my favorite part is C# with .NET Core.",
+        "introduction": "Hello! My name is Lucas, I'm myAgeReplace years old, and I've been working in programming for over ageReplace years.\n\nI'm completely passionate about what I do. Since 2016, when I started in this field, I've never regretted beginning this journey of continuous learning.\n\nI'm a full-stack developer, but my favorite part is C# with .NET Core.",
         "hobbies": "Outside of work, I have several hobbies, such as tabletop games and computer games, playing the guitar, programming (yes, livestreams are like hobbies to me), etc.\n\nI'm a pet parent, I like tattoos; in fact, the ones I have are related to my favorite movies/books, Lord of the Rings. I enjoy painting RPG miniatures; it's a hobby that teaches me a lot about patience, trial and error, and not giving up before seeing the final result.",
         "hardSkills": "C#, .NET Core, Node.JS, React, Next.JS, Angular, Vue.JS, Flutter, ASP.NET Core Razor, Ionic, Hangfire, RabbitMQ, Kafka, PubNub, AWS, Azure, Docker, Kubernetes, Terraform, MySQL, SQL Server, Postgres, MongoDB, CosmosDB",
         "softSkills": "Communication, Teamwork, Resilience, Empathy, Organization, Flexibility, Creativity"

@@ -31,13 +31,13 @@ export default function Header({
     return [
         <header className={styles.header}>
             <nav className={styles.nav}>
-                <div className={styles.hamburger} onClick={toggleMenu}>
-                    <div className={styles.bar}></div>
-                    <div className={styles.bar}></div>
-                    <div className={styles.bar}></div>
+                <div key='hamburger' className={styles.hamburger} onClick={toggleMenu}>
+                    <div key='bar-1' className={styles.bar}></div>
+                    <div key='bar-2' className={styles.bar}></div>
+                    <div key='bar-3' className={styles.bar}></div>
                 </div>
-                <ol className={styles.olImage}>
-                    <li>
+                <ol key='ol-logo' className={styles.olImage}>
+                    <li key='li-image'>
                         <a href='/' className={styles.imageLogo}>
                             <Image
                                 className={styles.imageLogo}
@@ -48,21 +48,21 @@ export default function Header({
                                 priority />
                         </a>
                     </li>
-                    <li>
+                    <li key='li-name'>
                         <a className={styles.nameLogo} href='/'>Lucas Rocha</a>
                     </li>
                 </ol>
-                <ol className={`${styles.ol} ${!isOpen ? styles.olMenuOff : ''}`}>
-                    <li>
+                <ol key='ol-links' className={`${styles.ol} ${!isOpen ? styles.olMenuOff : ''}`}>
+                    <li key='li-aboutme'>
                         <a onClick={toggleMenu} href={`#${aboutMeId}`}>{aboutMeText}</a>
                     </li>
-                    <li>
+                    <li key='li-content'>
                         <a onClick={toggleMenu} href={`#${contentCreationId}`}>{contentCreationText}</a>
                     </li>
-                    <li>
+                    <li key='li-experiences'>
                         <a onClick={toggleMenu} href={`#${experiencesId}`}>{experiencesText}</a>
                     </li>
-                    <li>
+                    <li key='li-contact'>
                         <a onClick={toggleMenu} href={`#${contactId}`}>{contactText}</a>
                     </li>
                 </ol>

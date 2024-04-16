@@ -6,12 +6,14 @@ import Experience from "@/src/components/experiences/experiences.component";
 import Footer from "@/src/components/footer/footer.component";
 import Header from "@/src/components/header/header.component";
 import { useTranslations } from "next-intl";
+import { ReCaptchaProvider } from "next-recaptcha-v3";
 
 export default function Home() {
   const tExperiences = useTranslations('experiences');
   const tShared = useTranslations('shared');
   const tFooter = useTranslations('footer');
   const tHeader = useTranslations('header');
+  const tContact = useTranslations('contact');
 
   function getLink(): string {
     const base = 'https://wa.me/5519993814321'
@@ -33,13 +35,22 @@ export default function Home() {
       <main>
         <AboutMe />
         <ContentCreation />
-        <Experience 
+        <Experience
           title={tExperiences('title')}
           subtitle={tExperiences('subtitle')}
           downloadHere={tExperiences('downloadHere')}
           experiencesId={tShared('experiencesId')} />
-        <Contact />
-        <WhatsappCTA whatsappLink={getLink()}/>
+        <ReCaptchaProvider>
+          <Contact 
+            contactId={tShared('contactId')}
+            title={tContact('title')}
+            tMessage={tContact('message')}
+            tName={tContact('name')}
+            tAuthorizeCheckbox={tContact('authorizeCheckbox')}
+            submit={tContact('submit')}
+            subtitle={tContact('subtitle')} />
+        </ReCaptchaProvider>
+        <WhatsappCTA whatsappLink={getLink()} />
       </main>
       <Footer developedWith={tFooter('developedWith')} />
     </>

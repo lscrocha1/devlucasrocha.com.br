@@ -34,7 +34,7 @@
         "latestVideos": "Últimos vídeos"
     },
     "aboutMe": {
-        "introduction": "Olá! me chamo Lucas, tenho 25 anos e trabalho com programação há mais ageReplace anos.\n\nSou completamente apaixonado pelo que faço. Desde 2016, quando iniciei nessa área, nunca me arrependi de ter começado essa jornada de aprendizado contínuo.\n\nSou desenvolvedor full stack, mas minha parte favorita é o C# com .NET Core.",
+        "introduction": "Olá! me chamo Lucas, tenho myAgeReplace anos e trabalho com programação há mais ageReplace anos.\n\nSou completamente apaixonado pelo que faço. Desde 2016, quando iniciei nessa área, nunca me arrependi de ter começado essa jornada de aprendizado contínuo.\n\nSou desenvolvedor full stack, mas minha parte favorita é o C# com .NET Core.",
         "hobbies": "Fora do trabalho tenho diversos hobbies, tais como jogos de mesa e jogos de computador, tocar violão, programar e fazer live, etc.  \n\nSou pai de pet, gosto de tatuagens, inclusive as que tenho são relacionadas ao meus filmes/livros favoritos, Senhor dos Anéis. Gosto de pintar miniaturas de RPG, é um hobby que me ensina muito sobre paciência, tentativa e errors e não desistir antes de ver o resultado final.",
         "hardSkills": "C#, .NET Core, Node.JS, React, Next.JS, Angular, Vue.JS, Flutter, ASP.NET Core Razor, Ionic, Hangfire, RabbitMQ, Kafka, PubNub, AWS, Azure, Docker, Kubernetes, Terraform, MySQL, SQL Server, Postgres, MongoDB, CosmosDB",
         "softSkills": "Comunicação, Trabalho em equipe, Resiliência, Empatia, Organização, Flexibilidade, Criatividade"
