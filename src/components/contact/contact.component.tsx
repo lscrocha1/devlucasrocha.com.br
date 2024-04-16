@@ -30,8 +30,6 @@ export default function Contact({
     const { executeRecaptcha } = useReCaptcha();
 
     const handleSubmit = useCallback(async (e: FormEvent<HTMLFormElement>) => {
-        console.log(e);
-
         e.preventDefault();
         e.stopPropagation();
 
